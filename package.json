@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-cssnano",
+  "version": "0.0.0",
+  "description": "Shared eslint config for cssnano.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE-MIT"
+  ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": {
+    "name": "Ben Briggs",
+    "email": "beneb.info@gmail.com",
+    "url": "http://beneb.info"
+  },
+  "repository": "ben-eb/eslint-config-cssnano",
+  "homepage": "https://github.com/ben-eb/eslint-config-cssnano",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "cssnano"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "rules": {
+      "quote-props": [
+        2,
+        "always"
+      ]
+    }
+  }
+}
