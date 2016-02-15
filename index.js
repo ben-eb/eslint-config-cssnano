@@ -3,7 +3,6 @@ module.exports = {
         'brace-style': [2, '1tbs', {'allowSingleLine': false}],
         'camelcase': [2],
         'comma-spacing': [2],
-        'consistent-return': [2],
         'curly': [2, 'all'],
         'dot-notation': [2],
         'eol-last': [2],
