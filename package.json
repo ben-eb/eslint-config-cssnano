@@ -34,5 +34,9 @@
         "always"
       ]
     }
+  },
+  "dependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint-plugin-babel": "^3.3.0"
   }
 }

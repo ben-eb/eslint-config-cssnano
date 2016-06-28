@@ -1,5 +1,6 @@
 module.exports = {
     'rules': {
+        'babel/object-curly-spacing': 2,
         'brace-style': [2, '1tbs', {'allowSingleLine': false}],
         'camelcase': [2],
         'comma-spacing': [2],
@@ -40,7 +41,6 @@ module.exports = {
         'no-void': [2],
         'no-warning-comments': [2],
         'no-with': [2],
-        'object-curly-spacing': [2, 'never'],
         'quote-props': [2, 'as-needed'],
         'prefer-arrow-callback': [2],
         'radix': [2],
@@ -59,6 +59,10 @@ module.exports = {
             'experimentalObjectRestSpread': true
         },
     },
+    'parser': 'babel-eslint',
+    'plugins': [
+        'babel'
+    ],
     'env': {
         'node': true,
         'es6': true
