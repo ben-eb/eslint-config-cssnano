@@ -8,7 +8,14 @@
 With [npm](https://npmjs.org/package/eslint-config-cssnano) do:
 
 ```
-npm install eslint-config-cssnano --save
+npm install eslint-config-cssnano --save-dev
+```
+
+Note that for Node versions below 5, you must install the following plugins
+along with eslint-config-cssnano;
+
+```
+npm install eslint-plugin-babel eslint-plugin-import --save-dev
 ```
 
 

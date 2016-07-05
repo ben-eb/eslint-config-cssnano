@@ -3,12 +3,25 @@ module.exports = {
         'babel/object-curly-spacing': 2,
         'brace-style': [2, '1tbs', {'allowSingleLine': false}],
         'camelcase': [2],
+        'comma-dangle': [2, 'always-multiline'],
         'comma-spacing': [2],
         'curly': [2, 'all'],
         'dot-notation': [2],
         'eol-last': [2],
         'eqeqeq': [2],
         'handle-callback-err': [2],
+        'import/export': [2],
+        'import/imports-first': [2],
+        'import/named': [2],
+        'import/namespace': [2],
+        'import/newline-after-import': [2],
+        'import/no-duplicates': [2],
+        'import/no-mutable-exports': [2],
+        'import/no-named-as-default': [2],
+        'import/no-named-as-default-member': [2],
+        'import/no-unresolved': [2, {"commonjs": true}],
+        'import/order': [2],
+        'import/prefer-default-export': [2],
         'indent': [2, 4],
         'keyword-spacing': [2],
         'new-cap': [2],
@@ -30,6 +43,9 @@ module.exports = {
         'no-octal': [2],
         'no-proto': [2],
         'no-redeclare': [2],
+        'no-return-assign': [2],
+        'no-self-assign': [2],
+        'no-self-compare': [2],
         'no-shadow': [2],
         'no-shadow-restricted-names': [2],
         'no-sparse-arrays': [2],
@@ -50,21 +66,22 @@ module.exports = {
         'space-before-blocks': [2, 'always'],
         'spaced-comment': [2, 'always'],
         'strict': [2, 'global'],
-        'yoda': [2, 'never']
+        'yoda': [2, 'never'],
     },
     'parserOptions': {
         'ecmaVersion': 6,
         'sourceType': 'module',
         'ecmaFeatures': {
-            'experimentalObjectRestSpread': true
+            'experimentalObjectRestSpread': true,
         },
     },
     'parser': 'babel-eslint',
     'plugins': [
-        'babel'
+        'babel',
+        'import',
     ],
     'env': {
         'node': true,
-        'es6': true
-    }
+        'es6': true,
+    },
 };

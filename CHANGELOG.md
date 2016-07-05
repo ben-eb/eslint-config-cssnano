@@ -1,3 +1,8 @@
+# 3.0.0
+
+* Added new rules to validate module imports/exports.
+* Tweaks for code style.
+
 # 2.1.0
 
 * Now uses babel-eslint to parse.
