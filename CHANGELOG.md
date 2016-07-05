@@ -1,7 +1,12 @@
+# 3.0.1
+
+* Codifies lack of 0.12 support.
+
 # 3.0.0
 
 * Added new rules to validate module imports/exports.
 * Tweaks for code style.
+* Breaking: ESLint 3 no longer supports Node versions less than 4.
 
 # 2.1.0
 
