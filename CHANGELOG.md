@@ -1,3 +1,7 @@
+# 3.0.2
+
+* Fixes an issue where JSON was being parsed for export statements.
+
 # 3.0.1
 
 * Codifies lack of 0.12 support.
