@@ -1,3 +1,9 @@
+# 3.1.1
+
+* Fixed build.
+* Fixed an issue where the default configuration was not being referenced
+  correctly in the Flow configuration.
+
 # 3.1.0
 
 * Added a basic Flow configuration.
