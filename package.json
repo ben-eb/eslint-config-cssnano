@@ -5,6 +5,7 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "flow.js",
     "LICENSE-MIT"
   ],
   "scripts": {
@@ -24,7 +25,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.0.0"
+    "eslint-plugin-flowtype": "^2.3.0"
   },
   "eslintConfig": {
     "extends": "./index.js",

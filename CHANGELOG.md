@@ -1,3 +1,7 @@
+# 3.1.0
+
+* Added a basic Flow configuration.
+
 # 3.0.2
 
 * Fixes an issue where JSON was being parsed for export statements.

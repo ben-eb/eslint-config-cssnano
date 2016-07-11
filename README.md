@@ -32,6 +32,26 @@ In `package.json`:
 ```
 
 
+## Flow
+
+To use the Flow configuration, you must install the following plugin on top
+of the default dependencies;
+
+```
+npm install eslint-plugin-flowtype
+```
+
+Then in `package.json`;
+
+```json
+{
+    "eslintConfig": {
+        "extends": "cssnano/flow"
+    }
+}
+```
+
+
 ## License
 
 MIT © [Ben Briggs](http://beneb.info)
