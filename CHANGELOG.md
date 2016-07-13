@@ -1,3 +1,8 @@
+# 3.1.2
+
+* Resolves an issue where ESLint would produce false positives for undefined
+  variables when using the Flow config.
+
 # 3.1.1
 
 * Fixed build.

@@ -34,11 +34,11 @@ In `package.json`:
 
 ## Flow
 
-To use the Flow configuration, you must install the following plugin on top
+To use the Flow configuration, you must install the following plugins on top
 of the default dependencies;
 
 ```
-npm install eslint-plugin-flowtype
+npm install eslint-plugin-flow-vars eslint-plugin-flowtype --save-dev
 ```
 
 Then in `package.json`;
