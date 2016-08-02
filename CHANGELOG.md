@@ -1,3 +1,7 @@
+# 3.1.3
+
+* Resolves an issue where computed import references were being flagged.
+
 # 3.1.2
 
 * Resolves an issue where ESLint would produce false positives for undefined

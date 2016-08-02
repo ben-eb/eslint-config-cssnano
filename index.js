@@ -13,7 +13,7 @@ module.exports = {
         'import/export': [2],
         'import/imports-first': [2],
         'import/named': [2],
-        'import/namespace': [2],
+        'import/namespace': [2, {'allowComputed': true}],
         'import/newline-after-import': [2],
         'import/no-duplicates': [2],
         'import/no-mutable-exports': [2],
