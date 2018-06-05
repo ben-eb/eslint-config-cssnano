@@ -1,3 +1,7 @@
+# 4.0.0
+
+* Breaking: Update major versions of eslint, babel-eslint, eslint-plugin-babel, eslint-plugin-import
+
 # 3.1.3
 
 * Resolves an issue where computed import references were being flagged.
