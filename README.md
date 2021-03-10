@@ -1,3 +1,8 @@
+# Deprecation Notice
+
+These days I prefer to use https://github.com/xojs/xo rather than maintaining
+a custom configuration; so this config will not be receiving future updates.
+
 # eslint-config-cssnano [![Build Status](https://travis-ci.org/ben-eb/eslint-config-cssnano.svg?branch=master)][ci]
 
 > Shared eslint config for cssnano.
